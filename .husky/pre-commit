@@ -1,0 +1,2 @@
+echo "Start Prettier & ESLint..."
+npx lint-staged

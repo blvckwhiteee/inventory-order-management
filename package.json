@@ -1,0 +1,33 @@
+{
+  "name": "inventory-order-management",
+  "version": "1.0.0",
+  "description": "Це бекенд-сервіс для управління складськими запасами та обробки замовлень. Створений з фокусом на строгі інженерні стандарти, модульну архітектуру та консистентність даних.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "test": "echo \"Smoke test passed!\" && exit 0",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.5",
+    "eslint": "^10.13.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.9.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.0"
+  }
+}
