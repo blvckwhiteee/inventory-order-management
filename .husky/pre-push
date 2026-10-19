@@ -1,0 +1,3 @@
+echo "Running (build) and smoke tests..."
+npm run test
+npm run build
